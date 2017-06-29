@@ -1,0 +1,29 @@
+﻿Build started 2017/1/20 15:37:05.
+     1>Project "F:\MyTest\myTest\testCPP\协程学习\coroutine_study\coroutine_shared_stack_lower\coroutine_shared_stack_lower.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\coctx.cpp
+         coctx.cpp
+     1>f:\mytest\mytest\testcpp\协程学习\coroutine_study\coctx.cpp(78): warning C4138: '*/' found outside of comment
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\main.c co_shared_stack_lower.c
+         co_shared_stack_lower.c
+     1>f:\mytest\mytest\testcpp\协程学习\coroutine_study\coroutine_shared_stack_lower\co_shared_stack_lower.c(52): warning C4293: '<<' : shift count negative or too big, undefined behavior
+     1>f:\mytest\mytest\testcpp\协程学习\coroutine_study\coroutine_shared_stack_lower\co_shared_stack_lower.c(77): warning C4028: formal parameter 1 different from declaration
+     1>f:\mytest\mytest\testcpp\协程学习\coroutine_study\coroutine_shared_stack_lower\co_shared_stack_lower.c(77): warning C4028: formal parameter 2 different from declaration
+     1>f:\mytest\mytest\testcpp\协程学习\coroutine_study\coroutine_shared_stack_lower\co_shared_stack_lower.c(77): warning C4022: 'co_makectx' : pointer mismatch for actual parameter 3
+     1>f:\mytest\mytest\testcpp\协程学习\coroutine_study\coroutine_shared_stack_lower\co_shared_stack_lower.c(77): warning C4293: '>>' : shift count negative or too big, undefined behavior
+     1>f:\mytest\mytest\testcpp\协程学习\coroutine_study\coroutine_shared_stack_lower\co_shared_stack_lower.c(77): warning C4022: 'co_makectx' : pointer mismatch for actual parameter 4
+     1>f:\mytest\mytest\testcpp\协程学习\coroutine_study\coroutine_shared_stack_lower\co_shared_stack_lower.c(107): warning C4028: formal parameter 2 different from declaration
+         main.c
+     1>f:\mytest\mytest\testcpp\协程学习\coroutine_study\main.c(10): warning C4013: 'printf' undefined; assuming extern returning int
+     1>f:\mytest\mytest\testcpp\协程学习\coroutine_study\main.c(83): warning C4013: 'system' undefined; assuming extern returning int
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MyTest\myTest\testCPP\协程学习\coroutine_study\Debug\coroutine_shared_stack_lower.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\MyTest\myTest\testCPP\协程学习\coroutine_study\Debug\coroutine_shared_stack_lower.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MyTest\myTest\testCPP\协程学习\coroutine_study\Debug\coroutine_shared_stack_lower.lib" /MACHINE:X86 Debug\coctx.obj
+         Debug\main.obj
+         Debug\co_shared_stack_lower.obj
+         coroutine_shared_stack_lower.vcxproj -> F:\MyTest\myTest\testCPP\协程学习\coroutine_study\Debug\coroutine_shared_stack_lower.exe
+     1>Done Building Project "F:\MyTest\myTest\testCPP\协程学习\coroutine_study\coroutine_shared_stack_lower\coroutine_shared_stack_lower.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.19

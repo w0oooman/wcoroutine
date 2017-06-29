@@ -1,0 +1,9 @@
+﻿Build started 2017/1/24 13:57:20.
+     1>Project "F:\MyTest\myTest\testCPP\协程学习\coroutine_study - detached asm file\coroutine_shared_stack\coroutine_shared_stack.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         coroutine_shared_stack.vcxproj -> F:\MyTest\myTest\testCPP\协程学习\coroutine_study - detached asm file\Debug\coroutine_shared_stack.exe
+     1>Done Building Project "F:\MyTest\myTest\testCPP\协程学习\coroutine_study - detached asm file\coroutine_shared_stack\coroutine_shared_stack.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04

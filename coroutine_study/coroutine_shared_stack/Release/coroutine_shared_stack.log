@@ -1,0 +1,29 @@
+﻿Build started 2017/1/20 13:44:13.
+     1>Project "F:\MyTest\myTest\testCPP\协程学习\coroutine_study\coroutine_shared_stack\coroutine_shared_stack.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../ /Zi /nologo /W3 /WX- /sdl /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\coctx.cpp
+         coctx.cpp
+     1>..\coctx.cpp(78): warning C4138: '*/' found outside of comment
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../ /Zi /nologo /W3 /WX- /sdl /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\main.c co_shared_stack.c
+         main.c
+     1>..\main.c(10): warning C4013: 'printf' undefined; assuming extern returning int
+     1>..\main.c(83): warning C4013: 'system' undefined; assuming extern returning int
+         co_shared_stack.c
+     1>co_shared_stack.c(49): warning C4293: '<<' : shift count negative or too big, undefined behavior
+     1>co_shared_stack.c(74): warning C4113: 'void (__cdecl *)(void)' differs in parameter lists from 'coroutine_func'
+     1>co_shared_stack.c(74): warning C4022: 'co_makectx' : pointer mismatch for actual parameter 3
+     1>co_shared_stack.c(74): warning C4293: '>>' : shift count negative or too big, undefined behavior
+     1>co_shared_stack.c(74): warning C4022: 'co_makectx' : pointer mismatch for actual parameter 4
+     1>co_shared_stack.c(105): warning C4028: formal parameter 2 different from declaration
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MyTest\myTest\testCPP\协程学习\coroutine_study\Release\coroutine_shared_stack.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\MyTest\myTest\testCPP\协程学习\coroutine_study\Release\coroutine_shared_stack.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MyTest\myTest\testCPP\协程学习\coroutine_study\Release\coroutine_shared_stack.lib" /MACHINE:X86 /SAFESEH Release\coctx.obj
+         Release\main.obj
+         Release\co_shared_stack.obj
+         Generating code
+         Finished generating code
+         coroutine_shared_stack.vcxproj -> F:\MyTest\myTest\testCPP\协程学习\coroutine_study\Release\coroutine_shared_stack.exe
+     1>Done Building Project "F:\MyTest\myTest\testCPP\协程学习\coroutine_study\coroutine_shared_stack\coroutine_shared_stack.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.54

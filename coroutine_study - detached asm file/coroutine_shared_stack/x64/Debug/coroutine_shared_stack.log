@@ -1,0 +1,28 @@
+﻿Build started 2017/1/24 10:12:12.
+     1>Project "F:\MyTest\myTest\testCPP\协程学习\coroutine_study - detached asm file\coroutine_shared_stack\coroutine_shared_stack.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Performing Custom Build Tools
+          Assembling: ../coctx64_asm.asm
+         Microsoft (R) Macro Assembler (x64) Version 12.00.30501.0
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../ /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\coctx.cpp
+         coctx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../ /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt ..\main.c co_shared_stack.c
+         co_shared_stack.c
+     1>co_shared_stack.c(79): warning C4028: formal parameter 1 different from declaration
+     1>co_shared_stack.c(79): warning C4028: formal parameter 2 different from declaration
+         main.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MyTest\myTest\testCPP\协程学习\coroutine_study - detached asm file\x64\Debug\coroutine_shared_stack.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\MyTest\myTest\testCPP\协程学习\coroutine_study - detached asm file\x64\Debug\coroutine_shared_stack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MyTest\myTest\testCPP\协程学习\coroutine_study - detached asm file\x64\Debug\coroutine_shared_stack.lib" /MACHINE:X64 x64\Debug\coctx64_asm.obj
+         x64\Debug\coctx.obj
+         x64\Debug\main.obj
+         x64\Debug\co_shared_stack.obj
+         coroutine_shared_stack.vcxproj -> F:\MyTest\myTest\testCPP\协程学习\coroutine_study - detached asm file\x64\Debug\coroutine_shared_stack.exe
+     1>Done Building Project "F:\MyTest\myTest\testCPP\协程学习\coroutine_study - detached asm file\coroutine_shared_stack\coroutine_shared_stack.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.11
